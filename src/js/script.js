@@ -12,4 +12,13 @@ window.addEventListener('DOMContentLoaded', () => {
     totalCost = document.querySelector('.cart__total > span'),
     titles = document.querySelectorAll('.goods__title');
 
+  function openCart() {
+    cart.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCart() {
+    cart.style.display = 'none';
+    document.body.style.overflow = '';
+  }
 });
