@@ -21,4 +21,8 @@ window.addEventListener('DOMContentLoaded', () => {
     cart.style.display = 'none';
     document.body.style.overflow = '';
   }
+
+  open.addEventListener('click', openCart);
+  close.addEventListener('click', closeCart);
+
 });
